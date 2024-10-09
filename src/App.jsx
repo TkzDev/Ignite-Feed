@@ -1,9 +1,9 @@
-import { Header } from "./components/Header"
-import { Post } from "./Post"
+import { Header } from "./components/header/Header"
+import { Post } from "./components/post/Post"
+import { Sidebar } from "./components/sidebar/Sidebar"
 
 import styles from './App.module.css'
 import './global.css'
-import { Sidebar } from "./components/Sidebar"
 
 function App() {
   return (
